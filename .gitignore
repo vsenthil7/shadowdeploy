@@ -30,3 +30,16 @@ Thumbs.db
 
 # Build/packaging archives (the shipped tarball lives one level up, not in the repo)
 *.tar.gz
+
+# --- Terraform live-run: ignore heavy/transient, KEEP all logs + plan renderings ---
+# Provider binaries (~hundreds of MB) and local state are transient, not evidence.
+live-run/.terraform/
+live-run/.terraform.lock.hcl
+live-run/terraform.tfstate
+live-run/terraform.tfstate.*
+live-run/evidence/tfplan.binary
+# NOTE: deliberately NOT ignored (these ARE the evidence and must be tracked):
+#   live-run/logs/*.log
+#   live-run/evidence/plan_readable.txt
+#   live-run/evidence/plan.json
+#   live-run/main.tf, live-run/*.ps1
