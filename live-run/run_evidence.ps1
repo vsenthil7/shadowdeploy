@@ -1,0 +1,11 @@
+. 'C:\Users\v_sen\Documents\Projects\0013_AT_Hack0024_AWS-PromptThePlanet\08-ShadowDeploy\shadowdeploy\live-run\_runner.ps1'
+$script:RunDir  = 'C:\Users\v_sen\Documents\Projects\0013_AT_Hack0024_AWS-PromptThePlanet\08-ShadowDeploy\shadowdeploy\live-run'
+$script:LogsDir = Join-Path $script:RunDir 'logs'
+$aws = 'C:\Program Files\Amazon\AWSCLIV2\aws.exe'
+$bucket = 'shadowdeploy-captures-dev-087242257828'
+
+Invoke-Logged -Step '09_evidence_dashboard' -Exe $aws -CliArgs @('cloudwatch','get-dashboard','--dashboard-name','shadowdeploy-dev','--profile','sandbox','--region','us-east-1') -Note 'Live CloudWatch dashboard definition pulled from AWS'
+Invoke-Logged -Step '10_evidence_s3_publicblock' -Exe $aws -CliArgs @('s3api','get-public-access-block','--bucket',$bucket,'--profile','sandbox') -Note 'PROVES public access fully blocked on capture bucket'
+Invoke-Logged -Step '11_evidence_s3_lifecycle' -Exe $aws -CliArgs @('s3api','get-bucket-lifecycle-configuration','--bucket',$bucket,'--profile','sandbox') -Note 'PROVES 7-day capture expiry lifecycle rule'
+Invoke-Logged -Step '12_evidence_billing_alarms' -Exe $aws -CliArgs @('cloudwatch','describe-alarms','--alarm-name-prefix','shadowdeploy-billing','--profile','sandbox','--region','us-east-1') -Note 'PROVES 10/50/100 USD billing alarms are live'
+Invoke-Logged -Step '13_evidence_bucket_tags' -Exe $aws -CliArgs @('s3api','get-bucket-tagging','--bucket',$bucket,'--profile','sandbox') -Note 'PROVES resource tagging applied'

@@ -2,6 +2,13 @@
 # Deployed to us-east-1 because AWS/Billing EstimatedCharges metrics only exist there.
 # Bucket name suffixed with account id for global uniqueness.
 # Shadow responses are captured for diffing and NEVER served to clients.
+#
+# NOTE (live-run scope): the aws_iam_role.compare + its policy from the reference
+# impl are intentionally OMITTED here. PowerUserAccess (this sandbox's permission
+# set) cannot create IAM roles, and there is no Lambda deployed in this demo for
+# the role to attach to. The role's least-privilege definition is proven in the
+# reference implementation and its tests (../infra/terraform/main.tf, 100% covered).
+# This live run proves the deployable, locked-down, monitored, cost-guarded infra.
 
 terraform {
   required_providers {
@@ -45,32 +52,6 @@ resource "aws_s3_bucket_public_access_block" "captures" {
   block_public_policy     = true
   ignore_public_acls      = true
   restrict_public_buckets = true
-}
-
-# --- Least-privilege role for the comparison Lambda ---
-resource "aws_iam_role" "compare" {
-  name = "shadowdeploy-compare-dev"
-  assume_role_policy = jsonencode({
-    Version = "2012-10-17"
-    Statement = [{
-      Action    = "sts:AssumeRole"
-      Effect    = "Allow"
-      Principal = { Service = "lambda.amazonaws.com" }
-    }]
-  })
-}
-
-resource "aws_iam_role_policy" "compare" {
-  name = "shadowdeploy-compare-least-priv"
-  role = aws_iam_role.compare.id
-  policy = jsonencode({
-    Version = "2012-10-17"
-    Statement = [{
-      Effect   = "Allow"
-      Action   = ["s3:GetObject", "s3:PutObject"]
-      Resource = "${aws_s3_bucket.captures.arn}/*"
-    }]
-  })
 }
 
 # --- CloudWatch dashboard: shadow error rate + divergence ---
