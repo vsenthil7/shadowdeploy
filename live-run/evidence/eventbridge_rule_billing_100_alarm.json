@@ -1,0 +1,11 @@
+{
+  "source": [
+    "aws.cloudwatch"
+  ],
+  "detail-type": [
+    "CloudWatch Alarm State Change"
+  ],
+  "resources": [
+    "arn:aws:cloudwatch:us-east-1:087242257828:alarm:shadowdeploy-billing-100-dev"
+  ]
+}
