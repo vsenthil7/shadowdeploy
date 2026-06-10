@@ -1,0 +1,12 @@
+{
+  "decision": "REVIEW_THEN_PROMOTE",
+  "verdict_presented": "review",
+  "match_pct": 98.2456,
+  "divergences_reviewed": {
+    "changed": 3
+  },
+  "reviewer": "<human approver \u2014 name/role here>",
+  "reviewed_at": "2026-06-08T08:50:42.890122+00:00",
+  "note": "v2 rounding divergence on ~2% of orders identified BEFORE promotion. Shadow responses confirmed never served to clients.",
+  "auto_promoted": false
+}

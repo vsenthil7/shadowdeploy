@@ -1,0 +1,18 @@
+{
+  "submission": "08 \u2014 ShadowDeploy",
+  "pattern": "API Gateway / Lambda REST (bounded)",
+  "sampling_rate": 0.05,
+  "generated_at": "2026-06-08T08:50:42.890251+00:00",
+  "verdict": "review",
+  "match_pct": 98.2456,
+  "artifacts": [
+    "sample_dataset.json",
+    "diff_report.json",
+    "diff_report.md",
+    "execution_log.txt",
+    "human_approval.json",
+    "cost_report.json",
+    "kpi_dashboard.txt"
+  ],
+  "shadow_responses_served_to_clients": false
+}

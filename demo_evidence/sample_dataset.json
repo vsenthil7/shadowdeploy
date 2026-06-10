@@ -1,0 +1,6500 @@
+[
+  {
+    "correlation_id": "sd-demo-000021",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 10.33,
+    "body": {
+      "order_id": 1021,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000021",
+      "served_at": "2026-06-08T09:00:21+00:00"
+    },
+    "captured_at": 1780909221.0
+  },
+  {
+    "correlation_id": "sd-demo-000021",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 11.78,
+    "body": {
+      "order_id": 1021,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000021",
+      "served_at": "2026-06-08T09:00:21.003000+00:00"
+    },
+    "captured_at": 1780909221.0
+  },
+  {
+    "correlation_id": "sd-demo-000051",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 16.99,
+    "body": {
+      "order_id": 1051,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000051",
+      "served_at": "2026-06-08T09:00:51+00:00"
+    },
+    "captured_at": 1780909251.0
+  },
+  {
+    "correlation_id": "sd-demo-000051",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 20.91,
+    "body": {
+      "order_id": 1051,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000051",
+      "served_at": "2026-06-08T09:00:51.003000+00:00"
+    },
+    "captured_at": 1780909251.0
+  },
+  {
+    "correlation_id": "sd-demo-000071",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 12.09,
+    "body": {
+      "order_id": 1071,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000071",
+      "served_at": "2026-06-08T09:01:11+00:00"
+    },
+    "captured_at": 1780909271.0
+  },
+  {
+    "correlation_id": "sd-demo-000071",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 15.47,
+    "body": {
+      "order_id": 1071,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000071",
+      "served_at": "2026-06-08T09:01:11.003000+00:00"
+    },
+    "captured_at": 1780909271.0
+  },
+  {
+    "correlation_id": "sd-demo-000114",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 13.19,
+    "body": {
+      "order_id": 1114,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000114",
+      "served_at": "2026-06-08T09:01:54+00:00"
+    },
+    "captured_at": 1780909314.0
+  },
+  {
+    "correlation_id": "sd-demo-000114",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 15.0,
+    "body": {
+      "order_id": 1114,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000114",
+      "served_at": "2026-06-08T09:01:54.003000+00:00"
+    },
+    "captured_at": 1780909314.0
+  },
+  {
+    "correlation_id": "sd-demo-000137",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 15.56,
+    "body": {
+      "order_id": 1137,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000137",
+      "served_at": "2026-06-08T09:02:17+00:00"
+    },
+    "captured_at": 1780909337.0
+  },
+  {
+    "correlation_id": "sd-demo-000137",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 19.59,
+    "body": {
+      "order_id": 1137,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000137",
+      "served_at": "2026-06-08T09:02:17.003000+00:00"
+    },
+    "captured_at": 1780909337.0
+  },
+  {
+    "correlation_id": "sd-demo-000170",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 9.69,
+    "body": {
+      "order_id": 1170,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000170",
+      "served_at": "2026-06-08T09:02:50+00:00"
+    },
+    "captured_at": 1780909370.0
+  },
+  {
+    "correlation_id": "sd-demo-000170",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 12.56,
+    "body": {
+      "order_id": 1170,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000170",
+      "served_at": "2026-06-08T09:02:50.003000+00:00"
+    },
+    "captured_at": 1780909370.0
+  },
+  {
+    "correlation_id": "sd-demo-000173",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 16.76,
+    "body": {
+      "order_id": 1173,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000173",
+      "served_at": "2026-06-08T09:02:53+00:00"
+    },
+    "captured_at": 1780909373.0
+  },
+  {
+    "correlation_id": "sd-demo-000173",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 21.59,
+    "body": {
+      "order_id": 1173,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000173",
+      "served_at": "2026-06-08T09:02:53.003000+00:00"
+    },
+    "captured_at": 1780909373.0
+  },
+  {
+    "correlation_id": "sd-demo-000203",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 12.56,
+    "body": {
+      "order_id": 1203,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000203",
+      "served_at": "2026-06-08T09:03:23+00:00"
+    },
+    "captured_at": 1780909403.0
+  },
+  {
+    "correlation_id": "sd-demo-000203",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 14.74,
+    "body": {
+      "order_id": 1203,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000203",
+      "served_at": "2026-06-08T09:03:23.003000+00:00"
+    },
+    "captured_at": 1780909403.0
+  },
+  {
+    "correlation_id": "sd-demo-000307",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 11.06,
+    "body": {
+      "order_id": 1307,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000307",
+      "served_at": "2026-06-08T09:05:07+00:00"
+    },
+    "captured_at": 1780909507.0
+  },
+  {
+    "correlation_id": "sd-demo-000307",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 13.97,
+    "body": {
+      "order_id": 1307,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000307",
+      "served_at": "2026-06-08T09:05:07.003000+00:00"
+    },
+    "captured_at": 1780909507.0
+  },
+  {
+    "correlation_id": "sd-demo-000342",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 10.18,
+    "body": {
+      "order_id": 1342,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000342",
+      "served_at": "2026-06-08T09:05:42+00:00"
+    },
+    "captured_at": 1780909542.0
+  },
+  {
+    "correlation_id": "sd-demo-000342",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 15.33,
+    "body": {
+      "order_id": 1342,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000342",
+      "served_at": "2026-06-08T09:05:42.003000+00:00"
+    },
+    "captured_at": 1780909542.0
+  },
+  {
+    "correlation_id": "sd-demo-000346",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 12.7,
+    "body": {
+      "order_id": 1346,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000346",
+      "served_at": "2026-06-08T09:05:46+00:00"
+    },
+    "captured_at": 1780909546.0
+  },
+  {
+    "correlation_id": "sd-demo-000346",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 16.66,
+    "body": {
+      "order_id": 1346,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000346",
+      "served_at": "2026-06-08T09:05:46.003000+00:00"
+    },
+    "captured_at": 1780909546.0
+  },
+  {
+    "correlation_id": "sd-demo-000351",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 9.2,
+    "body": {
+      "order_id": 1351,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000351",
+      "served_at": "2026-06-08T09:05:51+00:00"
+    },
+    "captured_at": 1780909551.0
+  },
+  {
+    "correlation_id": "sd-demo-000351",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 14.18,
+    "body": {
+      "order_id": 1351,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000351",
+      "served_at": "2026-06-08T09:05:51.003000+00:00"
+    },
+    "captured_at": 1780909551.0
+  },
+  {
+    "correlation_id": "sd-demo-000355",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 10.86,
+    "body": {
+      "order_id": 1355,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000355",
+      "served_at": "2026-06-08T09:05:55+00:00"
+    },
+    "captured_at": 1780909555.0
+  },
+  {
+    "correlation_id": "sd-demo-000355",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 15.7,
+    "body": {
+      "order_id": 1355,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000355",
+      "served_at": "2026-06-08T09:05:55.003000+00:00"
+    },
+    "captured_at": 1780909555.0
+  },
+  {
+    "correlation_id": "sd-demo-000436",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 11.78,
+    "body": {
+      "order_id": 1436,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000436",
+      "served_at": "2026-06-08T09:07:16+00:00"
+    },
+    "captured_at": 1780909636.0
+  },
+  {
+    "correlation_id": "sd-demo-000436",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 13.1,
+    "body": {
+      "order_id": 1436,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000436",
+      "served_at": "2026-06-08T09:07:16.003000+00:00"
+    },
+    "captured_at": 1780909636.0
+  },
+  {
+    "correlation_id": "sd-demo-000465",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 9.01,
+    "body": {
+      "order_id": 1465,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000465",
+      "served_at": "2026-06-08T09:07:45+00:00"
+    },
+    "captured_at": 1780909665.0
+  },
+  {
+    "correlation_id": "sd-demo-000465",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 10.5,
+    "body": {
+      "order_id": 1465,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000465",
+      "served_at": "2026-06-08T09:07:45.003000+00:00"
+    },
+    "captured_at": 1780909665.0
+  },
+  {
+    "correlation_id": "sd-demo-000492",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 10.33,
+    "body": {
+      "order_id": 1492,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000492",
+      "served_at": "2026-06-08T09:08:12+00:00"
+    },
+    "captured_at": 1780909692.0
+  },
+  {
+    "correlation_id": "sd-demo-000492",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 15.99,
+    "body": {
+      "order_id": 1492,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000492",
+      "served_at": "2026-06-08T09:08:12.003000+00:00"
+    },
+    "captured_at": 1780909692.0
+  },
+  {
+    "correlation_id": "sd-demo-000574",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 9.17,
+    "body": {
+      "order_id": 1574,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000574",
+      "served_at": "2026-06-08T09:09:34+00:00"
+    },
+    "captured_at": 1780909774.0
+  },
+  {
+    "correlation_id": "sd-demo-000574",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 11.29,
+    "body": {
+      "order_id": 1574,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000574",
+      "served_at": "2026-06-08T09:09:34.003000+00:00"
+    },
+    "captured_at": 1780909774.0
+  },
+  {
+    "correlation_id": "sd-demo-000590",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 10.82,
+    "body": {
+      "order_id": 1590,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000590",
+      "served_at": "2026-06-08T09:09:50+00:00"
+    },
+    "captured_at": 1780909790.0
+  },
+  {
+    "correlation_id": "sd-demo-000590",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 14.44,
+    "body": {
+      "order_id": 1590,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000590",
+      "served_at": "2026-06-08T09:09:50.003000+00:00"
+    },
+    "captured_at": 1780909790.0
+  },
+  {
+    "correlation_id": "sd-demo-000600",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 12.02,
+    "body": {
+      "order_id": 1600,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000600",
+      "served_at": "2026-06-08T09:10:00+00:00"
+    },
+    "captured_at": 1780909800.0
+  },
+  {
+    "correlation_id": "sd-demo-000600",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 16.96,
+    "body": {
+      "order_id": 1600,
+      "status": "confirmed",
+      "total_cents": 2000,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000600",
+      "served_at": "2026-06-08T09:10:00.003000+00:00"
+    },
+    "captured_at": 1780909800.0
+  },
+  {
+    "correlation_id": "sd-demo-000603",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 13.37,
+    "body": {
+      "order_id": 1603,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000603",
+      "served_at": "2026-06-08T09:10:03+00:00"
+    },
+    "captured_at": 1780909803.0
+  },
+  {
+    "correlation_id": "sd-demo-000603",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 15.51,
+    "body": {
+      "order_id": 1603,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000603",
+      "served_at": "2026-06-08T09:10:03.003000+00:00"
+    },
+    "captured_at": 1780909803.0
+  },
+  {
+    "correlation_id": "sd-demo-000606",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 12.62,
+    "body": {
+      "order_id": 1606,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000606",
+      "served_at": "2026-06-08T09:10:06+00:00"
+    },
+    "captured_at": 1780909806.0
+  },
+  {
+    "correlation_id": "sd-demo-000606",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 15.91,
+    "body": {
+      "order_id": 1606,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000606",
+      "served_at": "2026-06-08T09:10:06.003000+00:00"
+    },
+    "captured_at": 1780909806.0
+  },
+  {
+    "correlation_id": "sd-demo-000627",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 15.24,
+    "body": {
+      "order_id": 1627,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000627",
+      "served_at": "2026-06-08T09:10:27+00:00"
+    },
+    "captured_at": 1780909827.0
+  },
+  {
+    "correlation_id": "sd-demo-000627",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 20.57,
+    "body": {
+      "order_id": 1627,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000627",
+      "served_at": "2026-06-08T09:10:27.003000+00:00"
+    },
+    "captured_at": 1780909827.0
+  },
+  {
+    "correlation_id": "sd-demo-000634",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 17.77,
+    "body": {
+      "order_id": 1634,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000634",
+      "served_at": "2026-06-08T09:10:34+00:00"
+    },
+    "captured_at": 1780909834.0
+  },
+  {
+    "correlation_id": "sd-demo-000634",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 19.69,
+    "body": {
+      "order_id": 1634,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000634",
+      "served_at": "2026-06-08T09:10:34.003000+00:00"
+    },
+    "captured_at": 1780909834.0
+  },
+  {
+    "correlation_id": "sd-demo-000672",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 17.57,
+    "body": {
+      "order_id": 1672,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000672",
+      "served_at": "2026-06-08T09:11:12+00:00"
+    },
+    "captured_at": 1780909872.0
+  },
+  {
+    "correlation_id": "sd-demo-000672",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 19.7,
+    "body": {
+      "order_id": 1672,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000672",
+      "served_at": "2026-06-08T09:11:12.003000+00:00"
+    },
+    "captured_at": 1780909872.0
+  },
+  {
+    "correlation_id": "sd-demo-000678",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 12.0,
+    "body": {
+      "order_id": 1678,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000678",
+      "served_at": "2026-06-08T09:11:18+00:00"
+    },
+    "captured_at": 1780909878.0
+  },
+  {
+    "correlation_id": "sd-demo-000678",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 17.18,
+    "body": {
+      "order_id": 1678,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000678",
+      "served_at": "2026-06-08T09:11:18.003000+00:00"
+    },
+    "captured_at": 1780909878.0
+  },
+  {
+    "correlation_id": "sd-demo-000680",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 14.83,
+    "body": {
+      "order_id": 1680,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000680",
+      "served_at": "2026-06-08T09:11:20+00:00"
+    },
+    "captured_at": 1780909880.0
+  },
+  {
+    "correlation_id": "sd-demo-000680",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 16.81,
+    "body": {
+      "order_id": 1680,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000680",
+      "served_at": "2026-06-08T09:11:20.003000+00:00"
+    },
+    "captured_at": 1780909880.0
+  },
+  {
+    "correlation_id": "sd-demo-000684",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 16.72,
+    "body": {
+      "order_id": 1684,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000684",
+      "served_at": "2026-06-08T09:11:24+00:00"
+    },
+    "captured_at": 1780909884.0
+  },
+  {
+    "correlation_id": "sd-demo-000684",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 21.9,
+    "body": {
+      "order_id": 1684,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000684",
+      "served_at": "2026-06-08T09:11:24.003000+00:00"
+    },
+    "captured_at": 1780909884.0
+  },
+  {
+    "correlation_id": "sd-demo-000747",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 11.82,
+    "body": {
+      "order_id": 1747,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000747",
+      "served_at": "2026-06-08T09:12:27+00:00"
+    },
+    "captured_at": 1780909947.0
+  },
+  {
+    "correlation_id": "sd-demo-000747",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 16.1,
+    "body": {
+      "order_id": 1747,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000747",
+      "served_at": "2026-06-08T09:12:27.003000+00:00"
+    },
+    "captured_at": 1780909947.0
+  },
+  {
+    "correlation_id": "sd-demo-000754",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 13.74,
+    "body": {
+      "order_id": 1754,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000754",
+      "served_at": "2026-06-08T09:12:34+00:00"
+    },
+    "captured_at": 1780909954.0
+  },
+  {
+    "correlation_id": "sd-demo-000754",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 15.93,
+    "body": {
+      "order_id": 1754,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000754",
+      "served_at": "2026-06-08T09:12:34.003000+00:00"
+    },
+    "captured_at": 1780909954.0
+  },
+  {
+    "correlation_id": "sd-demo-000759",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 16.96,
+    "body": {
+      "order_id": 1759,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000759",
+      "served_at": "2026-06-08T09:12:39+00:00"
+    },
+    "captured_at": 1780909959.0
+  },
+  {
+    "correlation_id": "sd-demo-000759",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 22.11,
+    "body": {
+      "order_id": 1759,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000759",
+      "served_at": "2026-06-08T09:12:39.003000+00:00"
+    },
+    "captured_at": 1780909959.0
+  },
+  {
+    "correlation_id": "sd-demo-000781",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 15.6,
+    "body": {
+      "order_id": 1781,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000781",
+      "served_at": "2026-06-08T09:13:01+00:00"
+    },
+    "captured_at": 1780909981.0
+  },
+  {
+    "correlation_id": "sd-demo-000781",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 19.7,
+    "body": {
+      "order_id": 1781,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000781",
+      "served_at": "2026-06-08T09:13:01.003000+00:00"
+    },
+    "captured_at": 1780909981.0
+  },
+  {
+    "correlation_id": "sd-demo-000789",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 13.74,
+    "body": {
+      "order_id": 1789,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000789",
+      "served_at": "2026-06-08T09:13:09+00:00"
+    },
+    "captured_at": 1780909989.0
+  },
+  {
+    "correlation_id": "sd-demo-000789",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 17.9,
+    "body": {
+      "order_id": 1789,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000789",
+      "served_at": "2026-06-08T09:13:09.003000+00:00"
+    },
+    "captured_at": 1780909989.0
+  },
+  {
+    "correlation_id": "sd-demo-000795",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 15.56,
+    "body": {
+      "order_id": 1795,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000795",
+      "served_at": "2026-06-08T09:13:15+00:00"
+    },
+    "captured_at": 1780909995.0
+  },
+  {
+    "correlation_id": "sd-demo-000795",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 16.88,
+    "body": {
+      "order_id": 1795,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000795",
+      "served_at": "2026-06-08T09:13:15.003000+00:00"
+    },
+    "captured_at": 1780909995.0
+  },
+  {
+    "correlation_id": "sd-demo-000815",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 13.36,
+    "body": {
+      "order_id": 1815,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000815",
+      "served_at": "2026-06-08T09:13:35+00:00"
+    },
+    "captured_at": 1780910015.0
+  },
+  {
+    "correlation_id": "sd-demo-000815",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 14.98,
+    "body": {
+      "order_id": 1815,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000815",
+      "served_at": "2026-06-08T09:13:35.003000+00:00"
+    },
+    "captured_at": 1780910015.0
+  },
+  {
+    "correlation_id": "sd-demo-000826",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 8.39,
+    "body": {
+      "order_id": 1826,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000826",
+      "served_at": "2026-06-08T09:13:46+00:00"
+    },
+    "captured_at": 1780910026.0
+  },
+  {
+    "correlation_id": "sd-demo-000826",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 10.86,
+    "body": {
+      "order_id": 1826,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000826",
+      "served_at": "2026-06-08T09:13:46.003000+00:00"
+    },
+    "captured_at": 1780910026.0
+  },
+  {
+    "correlation_id": "sd-demo-000860",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 16.12,
+    "body": {
+      "order_id": 1860,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000860",
+      "served_at": "2026-06-08T09:14:20+00:00"
+    },
+    "captured_at": 1780910060.0
+  },
+  {
+    "correlation_id": "sd-demo-000860",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 21.89,
+    "body": {
+      "order_id": 1860,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000860",
+      "served_at": "2026-06-08T09:14:20.003000+00:00"
+    },
+    "captured_at": 1780910060.0
+  },
+  {
+    "correlation_id": "sd-demo-000873",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 13.33,
+    "body": {
+      "order_id": 1873,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000873",
+      "served_at": "2026-06-08T09:14:33+00:00"
+    },
+    "captured_at": 1780910073.0
+  },
+  {
+    "correlation_id": "sd-demo-000873",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 17.53,
+    "body": {
+      "order_id": 1873,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000873",
+      "served_at": "2026-06-08T09:14:33.003000+00:00"
+    },
+    "captured_at": 1780910073.0
+  },
+  {
+    "correlation_id": "sd-demo-000878",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 9.25,
+    "body": {
+      "order_id": 1878,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000878",
+      "served_at": "2026-06-08T09:14:38+00:00"
+    },
+    "captured_at": 1780910078.0
+  },
+  {
+    "correlation_id": "sd-demo-000878",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 12.95,
+    "body": {
+      "order_id": 1878,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000878",
+      "served_at": "2026-06-08T09:14:38.003000+00:00"
+    },
+    "captured_at": 1780910078.0
+  },
+  {
+    "correlation_id": "sd-demo-000880",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 11.12,
+    "body": {
+      "order_id": 1880,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000880",
+      "served_at": "2026-06-08T09:14:40+00:00"
+    },
+    "captured_at": 1780910080.0
+  },
+  {
+    "correlation_id": "sd-demo-000880",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 12.62,
+    "body": {
+      "order_id": 1880,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000880",
+      "served_at": "2026-06-08T09:14:40.003000+00:00"
+    },
+    "captured_at": 1780910080.0
+  },
+  {
+    "correlation_id": "sd-demo-000975",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 13.52,
+    "body": {
+      "order_id": 1975,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000975",
+      "served_at": "2026-06-08T09:16:15+00:00"
+    },
+    "captured_at": 1780910175.0
+  },
+  {
+    "correlation_id": "sd-demo-000975",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 17.04,
+    "body": {
+      "order_id": 1975,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-000975",
+      "served_at": "2026-06-08T09:16:15.003000+00:00"
+    },
+    "captured_at": 1780910175.0
+  },
+  {
+    "correlation_id": "sd-demo-001000",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 8.49,
+    "body": {
+      "order_id": 2000,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001000",
+      "served_at": "2026-06-08T09:16:40+00:00"
+    },
+    "captured_at": 1780910200.0
+  },
+  {
+    "correlation_id": "sd-demo-001000",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 12.88,
+    "body": {
+      "order_id": 2000,
+      "status": "confirmed",
+      "total_cents": 2000,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001000",
+      "served_at": "2026-06-08T09:16:40.003000+00:00"
+    },
+    "captured_at": 1780910200.0
+  },
+  {
+    "correlation_id": "sd-demo-001005",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 9.78,
+    "body": {
+      "order_id": 2005,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001005",
+      "served_at": "2026-06-08T09:16:45+00:00"
+    },
+    "captured_at": 1780910205.0
+  },
+  {
+    "correlation_id": "sd-demo-001005",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 13.25,
+    "body": {
+      "order_id": 2005,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001005",
+      "served_at": "2026-06-08T09:16:45.003000+00:00"
+    },
+    "captured_at": 1780910205.0
+  },
+  {
+    "correlation_id": "sd-demo-001020",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 13.34,
+    "body": {
+      "order_id": 2020,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001020",
+      "served_at": "2026-06-08T09:17:00+00:00"
+    },
+    "captured_at": 1780910220.0
+  },
+  {
+    "correlation_id": "sd-demo-001020",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 17.48,
+    "body": {
+      "order_id": 2020,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001020",
+      "served_at": "2026-06-08T09:17:00.003000+00:00"
+    },
+    "captured_at": 1780910220.0
+  },
+  {
+    "correlation_id": "sd-demo-001042",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 12.09,
+    "body": {
+      "order_id": 2042,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001042",
+      "served_at": "2026-06-08T09:17:22+00:00"
+    },
+    "captured_at": 1780910242.0
+  },
+  {
+    "correlation_id": "sd-demo-001042",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 17.29,
+    "body": {
+      "order_id": 2042,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001042",
+      "served_at": "2026-06-08T09:17:22.003000+00:00"
+    },
+    "captured_at": 1780910242.0
+  },
+  {
+    "correlation_id": "sd-demo-001093",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 9.48,
+    "body": {
+      "order_id": 2093,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001093",
+      "served_at": "2026-06-08T09:18:13+00:00"
+    },
+    "captured_at": 1780910293.0
+  },
+  {
+    "correlation_id": "sd-demo-001093",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 14.74,
+    "body": {
+      "order_id": 2093,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001093",
+      "served_at": "2026-06-08T09:18:13.003000+00:00"
+    },
+    "captured_at": 1780910293.0
+  },
+  {
+    "correlation_id": "sd-demo-001101",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 10.41,
+    "body": {
+      "order_id": 2101,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001101",
+      "served_at": "2026-06-08T09:18:21+00:00"
+    },
+    "captured_at": 1780910301.0
+  },
+  {
+    "correlation_id": "sd-demo-001101",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 11.97,
+    "body": {
+      "order_id": 2101,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001101",
+      "served_at": "2026-06-08T09:18:21.003000+00:00"
+    },
+    "captured_at": 1780910301.0
+  },
+  {
+    "correlation_id": "sd-demo-001137",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 11.25,
+    "body": {
+      "order_id": 2137,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001137",
+      "served_at": "2026-06-08T09:18:57+00:00"
+    },
+    "captured_at": 1780910337.0
+  },
+  {
+    "correlation_id": "sd-demo-001137",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 15.4,
+    "body": {
+      "order_id": 2137,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001137",
+      "served_at": "2026-06-08T09:18:57.003000+00:00"
+    },
+    "captured_at": 1780910337.0
+  },
+  {
+    "correlation_id": "sd-demo-001281",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 12.82,
+    "body": {
+      "order_id": 2281,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001281",
+      "served_at": "2026-06-08T09:21:21+00:00"
+    },
+    "captured_at": 1780910481.0
+  },
+  {
+    "correlation_id": "sd-demo-001281",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 17.81,
+    "body": {
+      "order_id": 2281,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001281",
+      "served_at": "2026-06-08T09:21:21.003000+00:00"
+    },
+    "captured_at": 1780910481.0
+  },
+  {
+    "correlation_id": "sd-demo-001283",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 13.92,
+    "body": {
+      "order_id": 2283,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001283",
+      "served_at": "2026-06-08T09:21:23+00:00"
+    },
+    "captured_at": 1780910483.0
+  },
+  {
+    "correlation_id": "sd-demo-001283",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 17.38,
+    "body": {
+      "order_id": 2283,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001283",
+      "served_at": "2026-06-08T09:21:23.003000+00:00"
+    },
+    "captured_at": 1780910483.0
+  },
+  {
+    "correlation_id": "sd-demo-001397",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 8.56,
+    "body": {
+      "order_id": 2397,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001397",
+      "served_at": "2026-06-08T09:23:17+00:00"
+    },
+    "captured_at": 1780910597.0
+  },
+  {
+    "correlation_id": "sd-demo-001397",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 10.98,
+    "body": {
+      "order_id": 2397,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001397",
+      "served_at": "2026-06-08T09:23:17.003000+00:00"
+    },
+    "captured_at": 1780910597.0
+  },
+  {
+    "correlation_id": "sd-demo-001414",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 16.29,
+    "body": {
+      "order_id": 2414,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001414",
+      "served_at": "2026-06-08T09:23:34+00:00"
+    },
+    "captured_at": 1780910614.0
+  },
+  {
+    "correlation_id": "sd-demo-001414",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 20.59,
+    "body": {
+      "order_id": 2414,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001414",
+      "served_at": "2026-06-08T09:23:34.003000+00:00"
+    },
+    "captured_at": 1780910614.0
+  },
+  {
+    "correlation_id": "sd-demo-001439",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 10.77,
+    "body": {
+      "order_id": 2439,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001439",
+      "served_at": "2026-06-08T09:23:59+00:00"
+    },
+    "captured_at": 1780910639.0
+  },
+  {
+    "correlation_id": "sd-demo-001439",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 13.1,
+    "body": {
+      "order_id": 2439,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001439",
+      "served_at": "2026-06-08T09:23:59.003000+00:00"
+    },
+    "captured_at": 1780910639.0
+  },
+  {
+    "correlation_id": "sd-demo-001451",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 17.16,
+    "body": {
+      "order_id": 2451,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001451",
+      "served_at": "2026-06-08T09:24:11+00:00"
+    },
+    "captured_at": 1780910651.0
+  },
+  {
+    "correlation_id": "sd-demo-001451",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 22.76,
+    "body": {
+      "order_id": 2451,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001451",
+      "served_at": "2026-06-08T09:24:11.003000+00:00"
+    },
+    "captured_at": 1780910651.0
+  },
+  {
+    "correlation_id": "sd-demo-001462",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 15.05,
+    "body": {
+      "order_id": 2462,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001462",
+      "served_at": "2026-06-08T09:24:22+00:00"
+    },
+    "captured_at": 1780910662.0
+  },
+  {
+    "correlation_id": "sd-demo-001462",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 16.56,
+    "body": {
+      "order_id": 2462,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001462",
+      "served_at": "2026-06-08T09:24:22.003000+00:00"
+    },
+    "captured_at": 1780910662.0
+  },
+  {
+    "correlation_id": "sd-demo-001470",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 9.15,
+    "body": {
+      "order_id": 2470,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001470",
+      "served_at": "2026-06-08T09:24:30+00:00"
+    },
+    "captured_at": 1780910670.0
+  },
+  {
+    "correlation_id": "sd-demo-001470",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 11.45,
+    "body": {
+      "order_id": 2470,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001470",
+      "served_at": "2026-06-08T09:24:30.003000+00:00"
+    },
+    "captured_at": 1780910670.0
+  },
+  {
+    "correlation_id": "sd-demo-001489",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 9.45,
+    "body": {
+      "order_id": 2489,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001489",
+      "served_at": "2026-06-08T09:24:49+00:00"
+    },
+    "captured_at": 1780910689.0
+  },
+  {
+    "correlation_id": "sd-demo-001489",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 12.0,
+    "body": {
+      "order_id": 2489,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001489",
+      "served_at": "2026-06-08T09:24:49.003000+00:00"
+    },
+    "captured_at": 1780910689.0
+  },
+  {
+    "correlation_id": "sd-demo-001507",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 9.27,
+    "body": {
+      "order_id": 2507,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001507",
+      "served_at": "2026-06-08T09:25:07+00:00"
+    },
+    "captured_at": 1780910707.0
+  },
+  {
+    "correlation_id": "sd-demo-001507",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 14.8,
+    "body": {
+      "order_id": 2507,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001507",
+      "served_at": "2026-06-08T09:25:07.003000+00:00"
+    },
+    "captured_at": 1780910707.0
+  },
+  {
+    "correlation_id": "sd-demo-001533",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 10.48,
+    "body": {
+      "order_id": 2533,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001533",
+      "served_at": "2026-06-08T09:25:33+00:00"
+    },
+    "captured_at": 1780910733.0
+  },
+  {
+    "correlation_id": "sd-demo-001533",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 14.03,
+    "body": {
+      "order_id": 2533,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001533",
+      "served_at": "2026-06-08T09:25:33.003000+00:00"
+    },
+    "captured_at": 1780910733.0
+  },
+  {
+    "correlation_id": "sd-demo-001549",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 14.66,
+    "body": {
+      "order_id": 2549,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001549",
+      "served_at": "2026-06-08T09:25:49+00:00"
+    },
+    "captured_at": 1780910749.0
+  },
+  {
+    "correlation_id": "sd-demo-001549",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 15.78,
+    "body": {
+      "order_id": 2549,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001549",
+      "served_at": "2026-06-08T09:25:49.003000+00:00"
+    },
+    "captured_at": 1780910749.0
+  },
+  {
+    "correlation_id": "sd-demo-001561",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 9.78,
+    "body": {
+      "order_id": 2561,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001561",
+      "served_at": "2026-06-08T09:26:01+00:00"
+    },
+    "captured_at": 1780910761.0
+  },
+  {
+    "correlation_id": "sd-demo-001561",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 12.07,
+    "body": {
+      "order_id": 2561,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001561",
+      "served_at": "2026-06-08T09:26:01.003000+00:00"
+    },
+    "captured_at": 1780910761.0
+  },
+  {
+    "correlation_id": "sd-demo-001652",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 9.01,
+    "body": {
+      "order_id": 2652,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001652",
+      "served_at": "2026-06-08T09:27:32+00:00"
+    },
+    "captured_at": 1780910852.0
+  },
+  {
+    "correlation_id": "sd-demo-001652",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 13.98,
+    "body": {
+      "order_id": 2652,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001652",
+      "served_at": "2026-06-08T09:27:32.003000+00:00"
+    },
+    "captured_at": 1780910852.0
+  },
+  {
+    "correlation_id": "sd-demo-001661",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 14.83,
+    "body": {
+      "order_id": 2661,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001661",
+      "served_at": "2026-06-08T09:27:41+00:00"
+    },
+    "captured_at": 1780910861.0
+  },
+  {
+    "correlation_id": "sd-demo-001661",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 19.6,
+    "body": {
+      "order_id": 2661,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001661",
+      "served_at": "2026-06-08T09:27:41.003000+00:00"
+    },
+    "captured_at": 1780910861.0
+  },
+  {
+    "correlation_id": "sd-demo-001669",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 10.1,
+    "body": {
+      "order_id": 2669,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001669",
+      "served_at": "2026-06-08T09:27:49+00:00"
+    },
+    "captured_at": 1780910869.0
+  },
+  {
+    "correlation_id": "sd-demo-001669",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 12.36,
+    "body": {
+      "order_id": 2669,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001669",
+      "served_at": "2026-06-08T09:27:49.003000+00:00"
+    },
+    "captured_at": 1780910869.0
+  },
+  {
+    "correlation_id": "sd-demo-001685",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 17.18,
+    "body": {
+      "order_id": 2685,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001685",
+      "served_at": "2026-06-08T09:28:05+00:00"
+    },
+    "captured_at": 1780910885.0
+  },
+  {
+    "correlation_id": "sd-demo-001685",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 18.61,
+    "body": {
+      "order_id": 2685,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001685",
+      "served_at": "2026-06-08T09:28:05.003000+00:00"
+    },
+    "captured_at": 1780910885.0
+  },
+  {
+    "correlation_id": "sd-demo-001708",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 10.75,
+    "body": {
+      "order_id": 2708,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001708",
+      "served_at": "2026-06-08T09:28:28+00:00"
+    },
+    "captured_at": 1780910908.0
+  },
+  {
+    "correlation_id": "sd-demo-001708",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 16.16,
+    "body": {
+      "order_id": 2708,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001708",
+      "served_at": "2026-06-08T09:28:28.003000+00:00"
+    },
+    "captured_at": 1780910908.0
+  },
+  {
+    "correlation_id": "sd-demo-001710",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 13.59,
+    "body": {
+      "order_id": 2710,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001710",
+      "served_at": "2026-06-08T09:28:30+00:00"
+    },
+    "captured_at": 1780910910.0
+  },
+  {
+    "correlation_id": "sd-demo-001710",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 15.58,
+    "body": {
+      "order_id": 2710,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001710",
+      "served_at": "2026-06-08T09:28:30.003000+00:00"
+    },
+    "captured_at": 1780910910.0
+  },
+  {
+    "correlation_id": "sd-demo-001714",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 10.17,
+    "body": {
+      "order_id": 2714,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001714",
+      "served_at": "2026-06-08T09:28:34+00:00"
+    },
+    "captured_at": 1780910914.0
+  },
+  {
+    "correlation_id": "sd-demo-001714",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 11.75,
+    "body": {
+      "order_id": 2714,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001714",
+      "served_at": "2026-06-08T09:28:34.003000+00:00"
+    },
+    "captured_at": 1780910914.0
+  },
+  {
+    "correlation_id": "sd-demo-001718",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 13.09,
+    "body": {
+      "order_id": 2718,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001718",
+      "served_at": "2026-06-08T09:28:38+00:00"
+    },
+    "captured_at": 1780910918.0
+  },
+  {
+    "correlation_id": "sd-demo-001718",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 15.44,
+    "body": {
+      "order_id": 2718,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001718",
+      "served_at": "2026-06-08T09:28:38.003000+00:00"
+    },
+    "captured_at": 1780910918.0
+  },
+  {
+    "correlation_id": "sd-demo-001736",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 12.36,
+    "body": {
+      "order_id": 2736,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001736",
+      "served_at": "2026-06-08T09:28:56+00:00"
+    },
+    "captured_at": 1780910936.0
+  },
+  {
+    "correlation_id": "sd-demo-001736",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 17.24,
+    "body": {
+      "order_id": 2736,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001736",
+      "served_at": "2026-06-08T09:28:56.003000+00:00"
+    },
+    "captured_at": 1780910936.0
+  },
+  {
+    "correlation_id": "sd-demo-001739",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 16.55,
+    "body": {
+      "order_id": 2739,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001739",
+      "served_at": "2026-06-08T09:28:59+00:00"
+    },
+    "captured_at": 1780910939.0
+  },
+  {
+    "correlation_id": "sd-demo-001739",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 22.39,
+    "body": {
+      "order_id": 2739,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001739",
+      "served_at": "2026-06-08T09:28:59.003000+00:00"
+    },
+    "captured_at": 1780910939.0
+  },
+  {
+    "correlation_id": "sd-demo-001780",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 11.03,
+    "body": {
+      "order_id": 2780,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001780",
+      "served_at": "2026-06-08T09:29:40+00:00"
+    },
+    "captured_at": 1780910980.0
+  },
+  {
+    "correlation_id": "sd-demo-001780",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 15.66,
+    "body": {
+      "order_id": 2780,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001780",
+      "served_at": "2026-06-08T09:29:40.003000+00:00"
+    },
+    "captured_at": 1780910980.0
+  },
+  {
+    "correlation_id": "sd-demo-001791",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 11.18,
+    "body": {
+      "order_id": 2791,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001791",
+      "served_at": "2026-06-08T09:29:51+00:00"
+    },
+    "captured_at": 1780910991.0
+  },
+  {
+    "correlation_id": "sd-demo-001791",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 12.3,
+    "body": {
+      "order_id": 2791,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001791",
+      "served_at": "2026-06-08T09:29:51.003000+00:00"
+    },
+    "captured_at": 1780910991.0
+  },
+  {
+    "correlation_id": "sd-demo-001792",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 8.8,
+    "body": {
+      "order_id": 2792,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001792",
+      "served_at": "2026-06-08T09:29:52+00:00"
+    },
+    "captured_at": 1780910992.0
+  },
+  {
+    "correlation_id": "sd-demo-001792",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 14.41,
+    "body": {
+      "order_id": 2792,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001792",
+      "served_at": "2026-06-08T09:29:52.003000+00:00"
+    },
+    "captured_at": 1780910992.0
+  },
+  {
+    "correlation_id": "sd-demo-001802",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 14.18,
+    "body": {
+      "order_id": 2802,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001802",
+      "served_at": "2026-06-08T09:30:02+00:00"
+    },
+    "captured_at": 1780911002.0
+  },
+  {
+    "correlation_id": "sd-demo-001802",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 20.09,
+    "body": {
+      "order_id": 2802,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001802",
+      "served_at": "2026-06-08T09:30:02.003000+00:00"
+    },
+    "captured_at": 1780911002.0
+  },
+  {
+    "correlation_id": "sd-demo-001819",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 16.95,
+    "body": {
+      "order_id": 2819,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001819",
+      "served_at": "2026-06-08T09:30:19+00:00"
+    },
+    "captured_at": 1780911019.0
+  },
+  {
+    "correlation_id": "sd-demo-001819",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 20.12,
+    "body": {
+      "order_id": 2819,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001819",
+      "served_at": "2026-06-08T09:30:19.003000+00:00"
+    },
+    "captured_at": 1780911019.0
+  },
+  {
+    "correlation_id": "sd-demo-001834",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 9.07,
+    "body": {
+      "order_id": 2834,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001834",
+      "served_at": "2026-06-08T09:30:34+00:00"
+    },
+    "captured_at": 1780911034.0
+  },
+  {
+    "correlation_id": "sd-demo-001834",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 14.01,
+    "body": {
+      "order_id": 2834,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001834",
+      "served_at": "2026-06-08T09:30:34.003000+00:00"
+    },
+    "captured_at": 1780911034.0
+  },
+  {
+    "correlation_id": "sd-demo-001836",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 16.6,
+    "body": {
+      "order_id": 2836,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001836",
+      "served_at": "2026-06-08T09:30:36+00:00"
+    },
+    "captured_at": 1780911036.0
+  },
+  {
+    "correlation_id": "sd-demo-001836",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 19.63,
+    "body": {
+      "order_id": 2836,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001836",
+      "served_at": "2026-06-08T09:30:36.003000+00:00"
+    },
+    "captured_at": 1780911036.0
+  },
+  {
+    "correlation_id": "sd-demo-001881",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 10.05,
+    "body": {
+      "order_id": 2881,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001881",
+      "served_at": "2026-06-08T09:31:21+00:00"
+    },
+    "captured_at": 1780911081.0
+  },
+  {
+    "correlation_id": "sd-demo-001881",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 15.45,
+    "body": {
+      "order_id": 2881,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001881",
+      "served_at": "2026-06-08T09:31:21.003000+00:00"
+    },
+    "captured_at": 1780911081.0
+  },
+  {
+    "correlation_id": "sd-demo-001916",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 16.93,
+    "body": {
+      "order_id": 2916,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001916",
+      "served_at": "2026-06-08T09:31:56+00:00"
+    },
+    "captured_at": 1780911116.0
+  },
+  {
+    "correlation_id": "sd-demo-001916",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 21.83,
+    "body": {
+      "order_id": 2916,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001916",
+      "served_at": "2026-06-08T09:31:56.003000+00:00"
+    },
+    "captured_at": 1780911116.0
+  },
+  {
+    "correlation_id": "sd-demo-001956",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 13.34,
+    "body": {
+      "order_id": 2956,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001956",
+      "served_at": "2026-06-08T09:32:36+00:00"
+    },
+    "captured_at": 1780911156.0
+  },
+  {
+    "correlation_id": "sd-demo-001956",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 18.83,
+    "body": {
+      "order_id": 2956,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001956",
+      "served_at": "2026-06-08T09:32:36.003000+00:00"
+    },
+    "captured_at": 1780911156.0
+  },
+  {
+    "correlation_id": "sd-demo-001960",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 16.99,
+    "body": {
+      "order_id": 2960,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001960",
+      "served_at": "2026-06-08T09:32:40+00:00"
+    },
+    "captured_at": 1780911160.0
+  },
+  {
+    "correlation_id": "sd-demo-001960",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 22.27,
+    "body": {
+      "order_id": 2960,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001960",
+      "served_at": "2026-06-08T09:32:40.003000+00:00"
+    },
+    "captured_at": 1780911160.0
+  },
+  {
+    "correlation_id": "sd-demo-001962",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 9.73,
+    "body": {
+      "order_id": 2962,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001962",
+      "served_at": "2026-06-08T09:32:42+00:00"
+    },
+    "captured_at": 1780911162.0
+  },
+  {
+    "correlation_id": "sd-demo-001962",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 14.76,
+    "body": {
+      "order_id": 2962,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001962",
+      "served_at": "2026-06-08T09:32:42.003000+00:00"
+    },
+    "captured_at": 1780911162.0
+  },
+  {
+    "correlation_id": "sd-demo-001966",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 10.3,
+    "body": {
+      "order_id": 2966,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001966",
+      "served_at": "2026-06-08T09:32:46+00:00"
+    },
+    "captured_at": 1780911166.0
+  },
+  {
+    "correlation_id": "sd-demo-001966",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 15.12,
+    "body": {
+      "order_id": 2966,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001966",
+      "served_at": "2026-06-08T09:32:46.003000+00:00"
+    },
+    "captured_at": 1780911166.0
+  },
+  {
+    "correlation_id": "sd-demo-001974",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 16.44,
+    "body": {
+      "order_id": 2974,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001974",
+      "served_at": "2026-06-08T09:32:54+00:00"
+    },
+    "captured_at": 1780911174.0
+  },
+  {
+    "correlation_id": "sd-demo-001974",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 18.76,
+    "body": {
+      "order_id": 2974,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001974",
+      "served_at": "2026-06-08T09:32:54.003000+00:00"
+    },
+    "captured_at": 1780911174.0
+  },
+  {
+    "correlation_id": "sd-demo-001983",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 15.92,
+    "body": {
+      "order_id": 2983,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001983",
+      "served_at": "2026-06-08T09:33:03+00:00"
+    },
+    "captured_at": 1780911183.0
+  },
+  {
+    "correlation_id": "sd-demo-001983",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 17.66,
+    "body": {
+      "order_id": 2983,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-001983",
+      "served_at": "2026-06-08T09:33:03.003000+00:00"
+    },
+    "captured_at": 1780911183.0
+  },
+  {
+    "correlation_id": "sd-demo-002031",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 17.31,
+    "body": {
+      "order_id": 3031,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002031",
+      "served_at": "2026-06-08T09:33:51+00:00"
+    },
+    "captured_at": 1780911231.0
+  },
+  {
+    "correlation_id": "sd-demo-002031",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 19.12,
+    "body": {
+      "order_id": 3031,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002031",
+      "served_at": "2026-06-08T09:33:51.003000+00:00"
+    },
+    "captured_at": 1780911231.0
+  },
+  {
+    "correlation_id": "sd-demo-002052",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 16.82,
+    "body": {
+      "order_id": 3052,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002052",
+      "served_at": "2026-06-08T09:34:12+00:00"
+    },
+    "captured_at": 1780911252.0
+  },
+  {
+    "correlation_id": "sd-demo-002052",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 21.76,
+    "body": {
+      "order_id": 3052,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002052",
+      "served_at": "2026-06-08T09:34:12.003000+00:00"
+    },
+    "captured_at": 1780911252.0
+  },
+  {
+    "correlation_id": "sd-demo-002079",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 14.74,
+    "body": {
+      "order_id": 3079,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002079",
+      "served_at": "2026-06-08T09:34:39+00:00"
+    },
+    "captured_at": 1780911279.0
+  },
+  {
+    "correlation_id": "sd-demo-002079",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 16.42,
+    "body": {
+      "order_id": 3079,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002079",
+      "served_at": "2026-06-08T09:34:39.003000+00:00"
+    },
+    "captured_at": 1780911279.0
+  },
+  {
+    "correlation_id": "sd-demo-002142",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 9.77,
+    "body": {
+      "order_id": 3142,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002142",
+      "served_at": "2026-06-08T09:35:42+00:00"
+    },
+    "captured_at": 1780911342.0
+  },
+  {
+    "correlation_id": "sd-demo-002142",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 14.32,
+    "body": {
+      "order_id": 3142,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002142",
+      "served_at": "2026-06-08T09:35:42.003000+00:00"
+    },
+    "captured_at": 1780911342.0
+  },
+  {
+    "correlation_id": "sd-demo-002161",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 14.3,
+    "body": {
+      "order_id": 3161,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002161",
+      "served_at": "2026-06-08T09:36:01+00:00"
+    },
+    "captured_at": 1780911361.0
+  },
+  {
+    "correlation_id": "sd-demo-002161",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 16.95,
+    "body": {
+      "order_id": 3161,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002161",
+      "served_at": "2026-06-08T09:36:01.003000+00:00"
+    },
+    "captured_at": 1780911361.0
+  },
+  {
+    "correlation_id": "sd-demo-002204",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 13.56,
+    "body": {
+      "order_id": 3204,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002204",
+      "served_at": "2026-06-08T09:36:44+00:00"
+    },
+    "captured_at": 1780911404.0
+  },
+  {
+    "correlation_id": "sd-demo-002204",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 15.52,
+    "body": {
+      "order_id": 3204,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002204",
+      "served_at": "2026-06-08T09:36:44.003000+00:00"
+    },
+    "captured_at": 1780911404.0
+  },
+  {
+    "correlation_id": "sd-demo-002220",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 15.28,
+    "body": {
+      "order_id": 3220,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002220",
+      "served_at": "2026-06-08T09:37:00+00:00"
+    },
+    "captured_at": 1780911420.0
+  },
+  {
+    "correlation_id": "sd-demo-002220",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 18.71,
+    "body": {
+      "order_id": 3220,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002220",
+      "served_at": "2026-06-08T09:37:00.003000+00:00"
+    },
+    "captured_at": 1780911420.0
+  },
+  {
+    "correlation_id": "sd-demo-002240",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 11.81,
+    "body": {
+      "order_id": 3240,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002240",
+      "served_at": "2026-06-08T09:37:20+00:00"
+    },
+    "captured_at": 1780911440.0
+  },
+  {
+    "correlation_id": "sd-demo-002240",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 17.77,
+    "body": {
+      "order_id": 3240,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002240",
+      "served_at": "2026-06-08T09:37:20.003000+00:00"
+    },
+    "captured_at": 1780911440.0
+  },
+  {
+    "correlation_id": "sd-demo-002288",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 8.99,
+    "body": {
+      "order_id": 3288,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002288",
+      "served_at": "2026-06-08T09:38:08+00:00"
+    },
+    "captured_at": 1780911488.0
+  },
+  {
+    "correlation_id": "sd-demo-002288",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 13.95,
+    "body": {
+      "order_id": 3288,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002288",
+      "served_at": "2026-06-08T09:38:08.003000+00:00"
+    },
+    "captured_at": 1780911488.0
+  },
+  {
+    "correlation_id": "sd-demo-002294",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 17.79,
+    "body": {
+      "order_id": 3294,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002294",
+      "served_at": "2026-06-08T09:38:14+00:00"
+    },
+    "captured_at": 1780911494.0
+  },
+  {
+    "correlation_id": "sd-demo-002294",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 23.52,
+    "body": {
+      "order_id": 3294,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002294",
+      "served_at": "2026-06-08T09:38:14.003000+00:00"
+    },
+    "captured_at": 1780911494.0
+  },
+  {
+    "correlation_id": "sd-demo-002325",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 16.5,
+    "body": {
+      "order_id": 3325,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002325",
+      "served_at": "2026-06-08T09:38:45+00:00"
+    },
+    "captured_at": 1780911525.0
+  },
+  {
+    "correlation_id": "sd-demo-002325",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 18.84,
+    "body": {
+      "order_id": 3325,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002325",
+      "served_at": "2026-06-08T09:38:45.003000+00:00"
+    },
+    "captured_at": 1780911525.0
+  },
+  {
+    "correlation_id": "sd-demo-002334",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 16.52,
+    "body": {
+      "order_id": 3334,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002334",
+      "served_at": "2026-06-08T09:38:54+00:00"
+    },
+    "captured_at": 1780911534.0
+  },
+  {
+    "correlation_id": "sd-demo-002334",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 18.51,
+    "body": {
+      "order_id": 3334,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002334",
+      "served_at": "2026-06-08T09:38:54.003000+00:00"
+    },
+    "captured_at": 1780911534.0
+  },
+  {
+    "correlation_id": "sd-demo-002345",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 15.75,
+    "body": {
+      "order_id": 3345,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002345",
+      "served_at": "2026-06-08T09:39:05+00:00"
+    },
+    "captured_at": 1780911545.0
+  },
+  {
+    "correlation_id": "sd-demo-002345",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 18.16,
+    "body": {
+      "order_id": 3345,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002345",
+      "served_at": "2026-06-08T09:39:05.003000+00:00"
+    },
+    "captured_at": 1780911545.0
+  },
+  {
+    "correlation_id": "sd-demo-002360",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 14.84,
+    "body": {
+      "order_id": 3360,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002360",
+      "served_at": "2026-06-08T09:39:20+00:00"
+    },
+    "captured_at": 1780911560.0
+  },
+  {
+    "correlation_id": "sd-demo-002360",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 16.69,
+    "body": {
+      "order_id": 3360,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002360",
+      "served_at": "2026-06-08T09:39:20.003000+00:00"
+    },
+    "captured_at": 1780911560.0
+  },
+  {
+    "correlation_id": "sd-demo-002373",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 10.37,
+    "body": {
+      "order_id": 3373,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002373",
+      "served_at": "2026-06-08T09:39:33+00:00"
+    },
+    "captured_at": 1780911573.0
+  },
+  {
+    "correlation_id": "sd-demo-002373",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 13.85,
+    "body": {
+      "order_id": 3373,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002373",
+      "served_at": "2026-06-08T09:39:33.003000+00:00"
+    },
+    "captured_at": 1780911573.0
+  },
+  {
+    "correlation_id": "sd-demo-002380",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 9.13,
+    "body": {
+      "order_id": 3380,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002380",
+      "served_at": "2026-06-08T09:39:40+00:00"
+    },
+    "captured_at": 1780911580.0
+  },
+  {
+    "correlation_id": "sd-demo-002380",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 12.59,
+    "body": {
+      "order_id": 3380,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002380",
+      "served_at": "2026-06-08T09:39:40.003000+00:00"
+    },
+    "captured_at": 1780911580.0
+  },
+  {
+    "correlation_id": "sd-demo-002398",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 12.98,
+    "body": {
+      "order_id": 3398,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002398",
+      "served_at": "2026-06-08T09:39:58+00:00"
+    },
+    "captured_at": 1780911598.0
+  },
+  {
+    "correlation_id": "sd-demo-002398",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 17.56,
+    "body": {
+      "order_id": 3398,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002398",
+      "served_at": "2026-06-08T09:39:58.003000+00:00"
+    },
+    "captured_at": 1780911598.0
+  },
+  {
+    "correlation_id": "sd-demo-002419",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 16.15,
+    "body": {
+      "order_id": 3419,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002419",
+      "served_at": "2026-06-08T09:40:19+00:00"
+    },
+    "captured_at": 1780911619.0
+  },
+  {
+    "correlation_id": "sd-demo-002419",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 21.04,
+    "body": {
+      "order_id": 3419,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002419",
+      "served_at": "2026-06-08T09:40:19.003000+00:00"
+    },
+    "captured_at": 1780911619.0
+  },
+  {
+    "correlation_id": "sd-demo-002442",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 14.47,
+    "body": {
+      "order_id": 3442,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002442",
+      "served_at": "2026-06-08T09:40:42+00:00"
+    },
+    "captured_at": 1780911642.0
+  },
+  {
+    "correlation_id": "sd-demo-002442",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 15.65,
+    "body": {
+      "order_id": 3442,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002442",
+      "served_at": "2026-06-08T09:40:42.003000+00:00"
+    },
+    "captured_at": 1780911642.0
+  },
+  {
+    "correlation_id": "sd-demo-002477",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 14.42,
+    "body": {
+      "order_id": 3477,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002477",
+      "served_at": "2026-06-08T09:41:17+00:00"
+    },
+    "captured_at": 1780911677.0
+  },
+  {
+    "correlation_id": "sd-demo-002477",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 15.98,
+    "body": {
+      "order_id": 3477,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002477",
+      "served_at": "2026-06-08T09:41:17.003000+00:00"
+    },
+    "captured_at": 1780911677.0
+  },
+  {
+    "correlation_id": "sd-demo-002530",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 13.97,
+    "body": {
+      "order_id": 3530,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002530",
+      "served_at": "2026-06-08T09:42:10+00:00"
+    },
+    "captured_at": 1780911730.0
+  },
+  {
+    "correlation_id": "sd-demo-002530",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 18.97,
+    "body": {
+      "order_id": 3530,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002530",
+      "served_at": "2026-06-08T09:42:10.003000+00:00"
+    },
+    "captured_at": 1780911730.0
+  },
+  {
+    "correlation_id": "sd-demo-002564",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 14.68,
+    "body": {
+      "order_id": 3564,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002564",
+      "served_at": "2026-06-08T09:42:44+00:00"
+    },
+    "captured_at": 1780911764.0
+  },
+  {
+    "correlation_id": "sd-demo-002564",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 18.65,
+    "body": {
+      "order_id": 3564,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002564",
+      "served_at": "2026-06-08T09:42:44.003000+00:00"
+    },
+    "captured_at": 1780911764.0
+  },
+  {
+    "correlation_id": "sd-demo-002585",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 10.73,
+    "body": {
+      "order_id": 3585,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002585",
+      "served_at": "2026-06-08T09:43:05+00:00"
+    },
+    "captured_at": 1780911785.0
+  },
+  {
+    "correlation_id": "sd-demo-002585",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 13.49,
+    "body": {
+      "order_id": 3585,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002585",
+      "served_at": "2026-06-08T09:43:05.003000+00:00"
+    },
+    "captured_at": 1780911785.0
+  },
+  {
+    "correlation_id": "sd-demo-002615",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 10.63,
+    "body": {
+      "order_id": 3615,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002615",
+      "served_at": "2026-06-08T09:43:35+00:00"
+    },
+    "captured_at": 1780911815.0
+  },
+  {
+    "correlation_id": "sd-demo-002615",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 14.12,
+    "body": {
+      "order_id": 3615,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002615",
+      "served_at": "2026-06-08T09:43:35.003000+00:00"
+    },
+    "captured_at": 1780911815.0
+  },
+  {
+    "correlation_id": "sd-demo-002643",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 8.91,
+    "body": {
+      "order_id": 3643,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002643",
+      "served_at": "2026-06-08T09:44:03+00:00"
+    },
+    "captured_at": 1780911843.0
+  },
+  {
+    "correlation_id": "sd-demo-002643",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 10.96,
+    "body": {
+      "order_id": 3643,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002643",
+      "served_at": "2026-06-08T09:44:03.003000+00:00"
+    },
+    "captured_at": 1780911843.0
+  },
+  {
+    "correlation_id": "sd-demo-002650",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 9.9,
+    "body": {
+      "order_id": 3650,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002650",
+      "served_at": "2026-06-08T09:44:10+00:00"
+    },
+    "captured_at": 1780911850.0
+  },
+  {
+    "correlation_id": "sd-demo-002650",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 11.24,
+    "body": {
+      "order_id": 3650,
+      "status": "confirmed",
+      "total_cents": 2000,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002650",
+      "served_at": "2026-06-08T09:44:10.003000+00:00"
+    },
+    "captured_at": 1780911850.0
+  },
+  {
+    "correlation_id": "sd-demo-002715",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 16.86,
+    "body": {
+      "order_id": 3715,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002715",
+      "served_at": "2026-06-08T09:45:15+00:00"
+    },
+    "captured_at": 1780911915.0
+  },
+  {
+    "correlation_id": "sd-demo-002715",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 20.56,
+    "body": {
+      "order_id": 3715,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002715",
+      "served_at": "2026-06-08T09:45:15.003000+00:00"
+    },
+    "captured_at": 1780911915.0
+  },
+  {
+    "correlation_id": "sd-demo-002720",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 8.79,
+    "body": {
+      "order_id": 3720,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002720",
+      "served_at": "2026-06-08T09:45:20+00:00"
+    },
+    "captured_at": 1780911920.0
+  },
+  {
+    "correlation_id": "sd-demo-002720",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 11.25,
+    "body": {
+      "order_id": 3720,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002720",
+      "served_at": "2026-06-08T09:45:20.003000+00:00"
+    },
+    "captured_at": 1780911920.0
+  },
+  {
+    "correlation_id": "sd-demo-002723",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 17.35,
+    "body": {
+      "order_id": 3723,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002723",
+      "served_at": "2026-06-08T09:45:23+00:00"
+    },
+    "captured_at": 1780911923.0
+  },
+  {
+    "correlation_id": "sd-demo-002723",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 19.0,
+    "body": {
+      "order_id": 3723,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002723",
+      "served_at": "2026-06-08T09:45:23.003000+00:00"
+    },
+    "captured_at": 1780911923.0
+  },
+  {
+    "correlation_id": "sd-demo-002732",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 13.89,
+    "body": {
+      "order_id": 3732,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002732",
+      "served_at": "2026-06-08T09:45:32+00:00"
+    },
+    "captured_at": 1780911932.0
+  },
+  {
+    "correlation_id": "sd-demo-002732",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 19.2,
+    "body": {
+      "order_id": 3732,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002732",
+      "served_at": "2026-06-08T09:45:32.003000+00:00"
+    },
+    "captured_at": 1780911932.0
+  },
+  {
+    "correlation_id": "sd-demo-002741",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 9.85,
+    "body": {
+      "order_id": 3741,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002741",
+      "served_at": "2026-06-08T09:45:41+00:00"
+    },
+    "captured_at": 1780911941.0
+  },
+  {
+    "correlation_id": "sd-demo-002741",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 11.41,
+    "body": {
+      "order_id": 3741,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002741",
+      "served_at": "2026-06-08T09:45:41.003000+00:00"
+    },
+    "captured_at": 1780911941.0
+  },
+  {
+    "correlation_id": "sd-demo-002763",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 17.9,
+    "body": {
+      "order_id": 3763,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002763",
+      "served_at": "2026-06-08T09:46:03+00:00"
+    },
+    "captured_at": 1780911963.0
+  },
+  {
+    "correlation_id": "sd-demo-002763",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 22.59,
+    "body": {
+      "order_id": 3763,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002763",
+      "served_at": "2026-06-08T09:46:03.003000+00:00"
+    },
+    "captured_at": 1780911963.0
+  },
+  {
+    "correlation_id": "sd-demo-002764",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 14.02,
+    "body": {
+      "order_id": 3764,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002764",
+      "served_at": "2026-06-08T09:46:04+00:00"
+    },
+    "captured_at": 1780911964.0
+  },
+  {
+    "correlation_id": "sd-demo-002764",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 17.63,
+    "body": {
+      "order_id": 3764,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002764",
+      "served_at": "2026-06-08T09:46:04.003000+00:00"
+    },
+    "captured_at": 1780911964.0
+  },
+  {
+    "correlation_id": "sd-demo-002843",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 8.2,
+    "body": {
+      "order_id": 3843,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002843",
+      "served_at": "2026-06-08T09:47:23+00:00"
+    },
+    "captured_at": 1780912043.0
+  },
+  {
+    "correlation_id": "sd-demo-002843",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 11.96,
+    "body": {
+      "order_id": 3843,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002843",
+      "served_at": "2026-06-08T09:47:23.003000+00:00"
+    },
+    "captured_at": 1780912043.0
+  },
+  {
+    "correlation_id": "sd-demo-002873",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 13.65,
+    "body": {
+      "order_id": 3873,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002873",
+      "served_at": "2026-06-08T09:47:53+00:00"
+    },
+    "captured_at": 1780912073.0
+  },
+  {
+    "correlation_id": "sd-demo-002873",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 16.76,
+    "body": {
+      "order_id": 3873,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002873",
+      "served_at": "2026-06-08T09:47:53.003000+00:00"
+    },
+    "captured_at": 1780912073.0
+  },
+  {
+    "correlation_id": "sd-demo-002883",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 15.99,
+    "body": {
+      "order_id": 3883,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002883",
+      "served_at": "2026-06-08T09:48:03+00:00"
+    },
+    "captured_at": 1780912083.0
+  },
+  {
+    "correlation_id": "sd-demo-002883",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 18.05,
+    "body": {
+      "order_id": 3883,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002883",
+      "served_at": "2026-06-08T09:48:03.003000+00:00"
+    },
+    "captured_at": 1780912083.0
+  },
+  {
+    "correlation_id": "sd-demo-002898",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 17.15,
+    "body": {
+      "order_id": 3898,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002898",
+      "served_at": "2026-06-08T09:48:18+00:00"
+    },
+    "captured_at": 1780912098.0
+  },
+  {
+    "correlation_id": "sd-demo-002898",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 20.07,
+    "body": {
+      "order_id": 3898,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002898",
+      "served_at": "2026-06-08T09:48:18.003000+00:00"
+    },
+    "captured_at": 1780912098.0
+  },
+  {
+    "correlation_id": "sd-demo-002906",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 13.34,
+    "body": {
+      "order_id": 3906,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002906",
+      "served_at": "2026-06-08T09:48:26+00:00"
+    },
+    "captured_at": 1780912106.0
+  },
+  {
+    "correlation_id": "sd-demo-002906",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 19.14,
+    "body": {
+      "order_id": 3906,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002906",
+      "served_at": "2026-06-08T09:48:26.003000+00:00"
+    },
+    "captured_at": 1780912106.0
+  },
+  {
+    "correlation_id": "sd-demo-002921",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 15.72,
+    "body": {
+      "order_id": 3921,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002921",
+      "served_at": "2026-06-08T09:48:41+00:00"
+    },
+    "captured_at": 1780912121.0
+  },
+  {
+    "correlation_id": "sd-demo-002921",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 20.37,
+    "body": {
+      "order_id": 3921,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002921",
+      "served_at": "2026-06-08T09:48:41.003000+00:00"
+    },
+    "captured_at": 1780912121.0
+  },
+  {
+    "correlation_id": "sd-demo-002930",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 12.44,
+    "body": {
+      "order_id": 3930,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002930",
+      "served_at": "2026-06-08T09:48:50+00:00"
+    },
+    "captured_at": 1780912130.0
+  },
+  {
+    "correlation_id": "sd-demo-002930",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 16.68,
+    "body": {
+      "order_id": 3930,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002930",
+      "served_at": "2026-06-08T09:48:50.003000+00:00"
+    },
+    "captured_at": 1780912130.0
+  },
+  {
+    "correlation_id": "sd-demo-002967",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 13.42,
+    "body": {
+      "order_id": 3967,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002967",
+      "served_at": "2026-06-08T09:49:27+00:00"
+    },
+    "captured_at": 1780912167.0
+  },
+  {
+    "correlation_id": "sd-demo-002967",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 19.03,
+    "body": {
+      "order_id": 3967,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002967",
+      "served_at": "2026-06-08T09:49:27.003000+00:00"
+    },
+    "captured_at": 1780912167.0
+  },
+  {
+    "correlation_id": "sd-demo-002977",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 17.53,
+    "body": {
+      "order_id": 3977,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002977",
+      "served_at": "2026-06-08T09:49:37+00:00"
+    },
+    "captured_at": 1780912177.0
+  },
+  {
+    "correlation_id": "sd-demo-002977",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 19.25,
+    "body": {
+      "order_id": 3977,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002977",
+      "served_at": "2026-06-08T09:49:37.003000+00:00"
+    },
+    "captured_at": 1780912177.0
+  },
+  {
+    "correlation_id": "sd-demo-002981",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 16.73,
+    "body": {
+      "order_id": 3981,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002981",
+      "served_at": "2026-06-08T09:49:41+00:00"
+    },
+    "captured_at": 1780912181.0
+  },
+  {
+    "correlation_id": "sd-demo-002981",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 18.97,
+    "body": {
+      "order_id": 3981,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002981",
+      "served_at": "2026-06-08T09:49:41.003000+00:00"
+    },
+    "captured_at": 1780912181.0
+  },
+  {
+    "correlation_id": "sd-demo-002998",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 8.13,
+    "body": {
+      "order_id": 3998,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002998",
+      "served_at": "2026-06-08T09:49:58+00:00"
+    },
+    "captured_at": 1780912198.0
+  },
+  {
+    "correlation_id": "sd-demo-002998",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 13.28,
+    "body": {
+      "order_id": 3998,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-002998",
+      "served_at": "2026-06-08T09:49:58.003000+00:00"
+    },
+    "captured_at": 1780912198.0
+  },
+  {
+    "correlation_id": "sd-demo-003075",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 12.84,
+    "body": {
+      "order_id": 4075,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003075",
+      "served_at": "2026-06-08T09:51:15+00:00"
+    },
+    "captured_at": 1780912275.0
+  },
+  {
+    "correlation_id": "sd-demo-003075",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 17.29,
+    "body": {
+      "order_id": 4075,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003075",
+      "served_at": "2026-06-08T09:51:15.003000+00:00"
+    },
+    "captured_at": 1780912275.0
+  },
+  {
+    "correlation_id": "sd-demo-003126",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 9.4,
+    "body": {
+      "order_id": 4126,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003126",
+      "served_at": "2026-06-08T09:52:06+00:00"
+    },
+    "captured_at": 1780912326.0
+  },
+  {
+    "correlation_id": "sd-demo-003126",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 12.05,
+    "body": {
+      "order_id": 4126,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003126",
+      "served_at": "2026-06-08T09:52:06.003000+00:00"
+    },
+    "captured_at": 1780912326.0
+  },
+  {
+    "correlation_id": "sd-demo-003191",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 14.17,
+    "body": {
+      "order_id": 4191,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003191",
+      "served_at": "2026-06-08T09:53:11+00:00"
+    },
+    "captured_at": 1780912391.0
+  },
+  {
+    "correlation_id": "sd-demo-003191",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 19.52,
+    "body": {
+      "order_id": 4191,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003191",
+      "served_at": "2026-06-08T09:53:11.003000+00:00"
+    },
+    "captured_at": 1780912391.0
+  },
+  {
+    "correlation_id": "sd-demo-003193",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 11.54,
+    "body": {
+      "order_id": 4193,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003193",
+      "served_at": "2026-06-08T09:53:13+00:00"
+    },
+    "captured_at": 1780912393.0
+  },
+  {
+    "correlation_id": "sd-demo-003193",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 17.04,
+    "body": {
+      "order_id": 4193,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003193",
+      "served_at": "2026-06-08T09:53:13.003000+00:00"
+    },
+    "captured_at": 1780912393.0
+  },
+  {
+    "correlation_id": "sd-demo-003223",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 10.52,
+    "body": {
+      "order_id": 4223,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003223",
+      "served_at": "2026-06-08T09:53:43+00:00"
+    },
+    "captured_at": 1780912423.0
+  },
+  {
+    "correlation_id": "sd-demo-003223",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 11.82,
+    "body": {
+      "order_id": 4223,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003223",
+      "served_at": "2026-06-08T09:53:43.003000+00:00"
+    },
+    "captured_at": 1780912423.0
+  },
+  {
+    "correlation_id": "sd-demo-003233",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 9.44,
+    "body": {
+      "order_id": 4233,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003233",
+      "served_at": "2026-06-08T09:53:53+00:00"
+    },
+    "captured_at": 1780912433.0
+  },
+  {
+    "correlation_id": "sd-demo-003233",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 11.37,
+    "body": {
+      "order_id": 4233,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003233",
+      "served_at": "2026-06-08T09:53:53.003000+00:00"
+    },
+    "captured_at": 1780912433.0
+  },
+  {
+    "correlation_id": "sd-demo-003247",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 10.65,
+    "body": {
+      "order_id": 4247,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003247",
+      "served_at": "2026-06-08T09:54:07+00:00"
+    },
+    "captured_at": 1780912447.0
+  },
+  {
+    "correlation_id": "sd-demo-003247",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 15.9,
+    "body": {
+      "order_id": 4247,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003247",
+      "served_at": "2026-06-08T09:54:07.003000+00:00"
+    },
+    "captured_at": 1780912447.0
+  },
+  {
+    "correlation_id": "sd-demo-003267",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 17.38,
+    "body": {
+      "order_id": 4267,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003267",
+      "served_at": "2026-06-08T09:54:27+00:00"
+    },
+    "captured_at": 1780912467.0
+  },
+  {
+    "correlation_id": "sd-demo-003267",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 21.77,
+    "body": {
+      "order_id": 4267,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003267",
+      "served_at": "2026-06-08T09:54:27.003000+00:00"
+    },
+    "captured_at": 1780912467.0
+  },
+  {
+    "correlation_id": "sd-demo-003290",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 11.85,
+    "body": {
+      "order_id": 4290,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003290",
+      "served_at": "2026-06-08T09:54:50+00:00"
+    },
+    "captured_at": 1780912490.0
+  },
+  {
+    "correlation_id": "sd-demo-003290",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 14.57,
+    "body": {
+      "order_id": 4290,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003290",
+      "served_at": "2026-06-08T09:54:50.003000+00:00"
+    },
+    "captured_at": 1780912490.0
+  },
+  {
+    "correlation_id": "sd-demo-003316",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 12.36,
+    "body": {
+      "order_id": 4316,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003316",
+      "served_at": "2026-06-08T09:55:16+00:00"
+    },
+    "captured_at": 1780912516.0
+  },
+  {
+    "correlation_id": "sd-demo-003316",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 17.57,
+    "body": {
+      "order_id": 4316,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003316",
+      "served_at": "2026-06-08T09:55:16.003000+00:00"
+    },
+    "captured_at": 1780912516.0
+  },
+  {
+    "correlation_id": "sd-demo-003332",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 12.87,
+    "body": {
+      "order_id": 4332,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003332",
+      "served_at": "2026-06-08T09:55:32+00:00"
+    },
+    "captured_at": 1780912532.0
+  },
+  {
+    "correlation_id": "sd-demo-003332",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 14.26,
+    "body": {
+      "order_id": 4332,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003332",
+      "served_at": "2026-06-08T09:55:32.003000+00:00"
+    },
+    "captured_at": 1780912532.0
+  },
+  {
+    "correlation_id": "sd-demo-003358",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 9.43,
+    "body": {
+      "order_id": 4358,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003358",
+      "served_at": "2026-06-08T09:55:58+00:00"
+    },
+    "captured_at": 1780912558.0
+  },
+  {
+    "correlation_id": "sd-demo-003358",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 10.74,
+    "body": {
+      "order_id": 4358,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003358",
+      "served_at": "2026-06-08T09:55:58.003000+00:00"
+    },
+    "captured_at": 1780912558.0
+  },
+  {
+    "correlation_id": "sd-demo-003364",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 14.08,
+    "body": {
+      "order_id": 4364,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003364",
+      "served_at": "2026-06-08T09:56:04+00:00"
+    },
+    "captured_at": 1780912564.0
+  },
+  {
+    "correlation_id": "sd-demo-003364",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 17.26,
+    "body": {
+      "order_id": 4364,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003364",
+      "served_at": "2026-06-08T09:56:04.003000+00:00"
+    },
+    "captured_at": 1780912564.0
+  },
+  {
+    "correlation_id": "sd-demo-003390",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 8.3,
+    "body": {
+      "order_id": 4390,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003390",
+      "served_at": "2026-06-08T09:56:30+00:00"
+    },
+    "captured_at": 1780912590.0
+  },
+  {
+    "correlation_id": "sd-demo-003390",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 13.56,
+    "body": {
+      "order_id": 4390,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003390",
+      "served_at": "2026-06-08T09:56:30.003000+00:00"
+    },
+    "captured_at": 1780912590.0
+  },
+  {
+    "correlation_id": "sd-demo-003394",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 15.95,
+    "body": {
+      "order_id": 4394,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003394",
+      "served_at": "2026-06-08T09:56:34+00:00"
+    },
+    "captured_at": 1780912594.0
+  },
+  {
+    "correlation_id": "sd-demo-003394",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 19.28,
+    "body": {
+      "order_id": 4394,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003394",
+      "served_at": "2026-06-08T09:56:34.003000+00:00"
+    },
+    "captured_at": 1780912594.0
+  },
+  {
+    "correlation_id": "sd-demo-003405",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 8.05,
+    "body": {
+      "order_id": 4405,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003405",
+      "served_at": "2026-06-08T09:56:45+00:00"
+    },
+    "captured_at": 1780912605.0
+  },
+  {
+    "correlation_id": "sd-demo-003405",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 11.43,
+    "body": {
+      "order_id": 4405,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003405",
+      "served_at": "2026-06-08T09:56:45.003000+00:00"
+    },
+    "captured_at": 1780912605.0
+  },
+  {
+    "correlation_id": "sd-demo-003430",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 11.33,
+    "body": {
+      "order_id": 4430,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003430",
+      "served_at": "2026-06-08T09:57:10+00:00"
+    },
+    "captured_at": 1780912630.0
+  },
+  {
+    "correlation_id": "sd-demo-003430",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 14.03,
+    "body": {
+      "order_id": 4430,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003430",
+      "served_at": "2026-06-08T09:57:10.003000+00:00"
+    },
+    "captured_at": 1780912630.0
+  },
+  {
+    "correlation_id": "sd-demo-003480",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 13.94,
+    "body": {
+      "order_id": 4480,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003480",
+      "served_at": "2026-06-08T09:58:00+00:00"
+    },
+    "captured_at": 1780912680.0
+  },
+  {
+    "correlation_id": "sd-demo-003480",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 16.25,
+    "body": {
+      "order_id": 4480,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003480",
+      "served_at": "2026-06-08T09:58:00.003000+00:00"
+    },
+    "captured_at": 1780912680.0
+  },
+  {
+    "correlation_id": "sd-demo-003495",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 13.44,
+    "body": {
+      "order_id": 4495,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003495",
+      "served_at": "2026-06-08T09:58:15+00:00"
+    },
+    "captured_at": 1780912695.0
+  },
+  {
+    "correlation_id": "sd-demo-003495",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 18.0,
+    "body": {
+      "order_id": 4495,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003495",
+      "served_at": "2026-06-08T09:58:15.003000+00:00"
+    },
+    "captured_at": 1780912695.0
+  },
+  {
+    "correlation_id": "sd-demo-003499",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 17.08,
+    "body": {
+      "order_id": 4499,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003499",
+      "served_at": "2026-06-08T09:58:19+00:00"
+    },
+    "captured_at": 1780912699.0
+  },
+  {
+    "correlation_id": "sd-demo-003499",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 22.17,
+    "body": {
+      "order_id": 4499,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003499",
+      "served_at": "2026-06-08T09:58:19.003000+00:00"
+    },
+    "captured_at": 1780912699.0
+  },
+  {
+    "correlation_id": "sd-demo-003531",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 10.66,
+    "body": {
+      "order_id": 4531,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003531",
+      "served_at": "2026-06-08T09:58:51+00:00"
+    },
+    "captured_at": 1780912731.0
+  },
+  {
+    "correlation_id": "sd-demo-003531",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 11.8,
+    "body": {
+      "order_id": 4531,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003531",
+      "served_at": "2026-06-08T09:58:51.003000+00:00"
+    },
+    "captured_at": 1780912731.0
+  },
+  {
+    "correlation_id": "sd-demo-003575",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 8.58,
+    "body": {
+      "order_id": 4575,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003575",
+      "served_at": "2026-06-08T09:59:35+00:00"
+    },
+    "captured_at": 1780912775.0
+  },
+  {
+    "correlation_id": "sd-demo-003575",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 10.0,
+    "body": {
+      "order_id": 4575,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003575",
+      "served_at": "2026-06-08T09:59:35.003000+00:00"
+    },
+    "captured_at": 1780912775.0
+  },
+  {
+    "correlation_id": "sd-demo-003578",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 8.94,
+    "body": {
+      "order_id": 4578,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003578",
+      "served_at": "2026-06-08T09:59:38+00:00"
+    },
+    "captured_at": 1780912778.0
+  },
+  {
+    "correlation_id": "sd-demo-003578",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 14.16,
+    "body": {
+      "order_id": 4578,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003578",
+      "served_at": "2026-06-08T09:59:38.003000+00:00"
+    },
+    "captured_at": 1780912778.0
+  },
+  {
+    "correlation_id": "sd-demo-003651",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 9.69,
+    "body": {
+      "order_id": 4651,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003651",
+      "served_at": "2026-06-08T10:00:51+00:00"
+    },
+    "captured_at": 1780912851.0
+  },
+  {
+    "correlation_id": "sd-demo-003651",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 12.23,
+    "body": {
+      "order_id": 4651,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003651",
+      "served_at": "2026-06-08T10:00:51.003000+00:00"
+    },
+    "captured_at": 1780912851.0
+  },
+  {
+    "correlation_id": "sd-demo-003654",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 10.32,
+    "body": {
+      "order_id": 4654,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003654",
+      "served_at": "2026-06-08T10:00:54+00:00"
+    },
+    "captured_at": 1780912854.0
+  },
+  {
+    "correlation_id": "sd-demo-003654",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 11.54,
+    "body": {
+      "order_id": 4654,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003654",
+      "served_at": "2026-06-08T10:00:54.003000+00:00"
+    },
+    "captured_at": 1780912854.0
+  },
+  {
+    "correlation_id": "sd-demo-003731",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 14.62,
+    "body": {
+      "order_id": 4731,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003731",
+      "served_at": "2026-06-08T10:02:11+00:00"
+    },
+    "captured_at": 1780912931.0
+  },
+  {
+    "correlation_id": "sd-demo-003731",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 19.13,
+    "body": {
+      "order_id": 4731,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003731",
+      "served_at": "2026-06-08T10:02:11.003000+00:00"
+    },
+    "captured_at": 1780912931.0
+  },
+  {
+    "correlation_id": "sd-demo-003746",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 12.23,
+    "body": {
+      "order_id": 4746,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003746",
+      "served_at": "2026-06-08T10:02:26+00:00"
+    },
+    "captured_at": 1780912946.0
+  },
+  {
+    "correlation_id": "sd-demo-003746",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 15.03,
+    "body": {
+      "order_id": 4746,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003746",
+      "served_at": "2026-06-08T10:02:26.003000+00:00"
+    },
+    "captured_at": 1780912946.0
+  },
+  {
+    "correlation_id": "sd-demo-003775",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 16.72,
+    "body": {
+      "order_id": 4775,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003775",
+      "served_at": "2026-06-08T10:02:55+00:00"
+    },
+    "captured_at": 1780912975.0
+  },
+  {
+    "correlation_id": "sd-demo-003775",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 19.93,
+    "body": {
+      "order_id": 4775,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003775",
+      "served_at": "2026-06-08T10:02:55.003000+00:00"
+    },
+    "captured_at": 1780912975.0
+  },
+  {
+    "correlation_id": "sd-demo-003780",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 11.59,
+    "body": {
+      "order_id": 4780,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003780",
+      "served_at": "2026-06-08T10:03:00+00:00"
+    },
+    "captured_at": 1780912980.0
+  },
+  {
+    "correlation_id": "sd-demo-003780",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 14.9,
+    "body": {
+      "order_id": 4780,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003780",
+      "served_at": "2026-06-08T10:03:00.003000+00:00"
+    },
+    "captured_at": 1780912980.0
+  },
+  {
+    "correlation_id": "sd-demo-003805",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 8.45,
+    "body": {
+      "order_id": 4805,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003805",
+      "served_at": "2026-06-08T10:03:25+00:00"
+    },
+    "captured_at": 1780913005.0
+  },
+  {
+    "correlation_id": "sd-demo-003805",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 10.79,
+    "body": {
+      "order_id": 4805,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003805",
+      "served_at": "2026-06-08T10:03:25.003000+00:00"
+    },
+    "captured_at": 1780913005.0
+  },
+  {
+    "correlation_id": "sd-demo-003807",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 17.23,
+    "body": {
+      "order_id": 4807,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003807",
+      "served_at": "2026-06-08T10:03:27+00:00"
+    },
+    "captured_at": 1780913007.0
+  },
+  {
+    "correlation_id": "sd-demo-003807",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 18.56,
+    "body": {
+      "order_id": 4807,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003807",
+      "served_at": "2026-06-08T10:03:27.003000+00:00"
+    },
+    "captured_at": 1780913007.0
+  },
+  {
+    "correlation_id": "sd-demo-003839",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 16.88,
+    "body": {
+      "order_id": 4839,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003839",
+      "served_at": "2026-06-08T10:03:59+00:00"
+    },
+    "captured_at": 1780913039.0
+  },
+  {
+    "correlation_id": "sd-demo-003839",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 19.93,
+    "body": {
+      "order_id": 4839,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003839",
+      "served_at": "2026-06-08T10:03:59.003000+00:00"
+    },
+    "captured_at": 1780913039.0
+  },
+  {
+    "correlation_id": "sd-demo-003874",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 17.49,
+    "body": {
+      "order_id": 4874,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003874",
+      "served_at": "2026-06-08T10:04:34+00:00"
+    },
+    "captured_at": 1780913074.0
+  },
+  {
+    "correlation_id": "sd-demo-003874",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 21.66,
+    "body": {
+      "order_id": 4874,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003874",
+      "served_at": "2026-06-08T10:04:34.003000+00:00"
+    },
+    "captured_at": 1780913074.0
+  },
+  {
+    "correlation_id": "sd-demo-003875",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 8.99,
+    "body": {
+      "order_id": 4875,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003875",
+      "served_at": "2026-06-08T10:04:35+00:00"
+    },
+    "captured_at": 1780913075.0
+  },
+  {
+    "correlation_id": "sd-demo-003875",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 11.43,
+    "body": {
+      "order_id": 4875,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003875",
+      "served_at": "2026-06-08T10:04:35.003000+00:00"
+    },
+    "captured_at": 1780913075.0
+  },
+  {
+    "correlation_id": "sd-demo-003877",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 11.62,
+    "body": {
+      "order_id": 4877,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003877",
+      "served_at": "2026-06-08T10:04:37+00:00"
+    },
+    "captured_at": 1780913077.0
+  },
+  {
+    "correlation_id": "sd-demo-003877",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 14.68,
+    "body": {
+      "order_id": 4877,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003877",
+      "served_at": "2026-06-08T10:04:37.003000+00:00"
+    },
+    "captured_at": 1780913077.0
+  },
+  {
+    "correlation_id": "sd-demo-003934",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 9.03,
+    "body": {
+      "order_id": 4934,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003934",
+      "served_at": "2026-06-08T10:05:34+00:00"
+    },
+    "captured_at": 1780913134.0
+  },
+  {
+    "correlation_id": "sd-demo-003934",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 12.79,
+    "body": {
+      "order_id": 4934,
+      "status": "confirmed",
+      "total_cents": 2399,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003934",
+      "served_at": "2026-06-08T10:05:34.003000+00:00"
+    },
+    "captured_at": 1780913134.0
+  },
+  {
+    "correlation_id": "sd-demo-003943",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 16.34,
+    "body": {
+      "order_id": 4943,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003943",
+      "served_at": "2026-06-08T10:05:43+00:00"
+    },
+    "captured_at": 1780913143.0
+  },
+  {
+    "correlation_id": "sd-demo-003943",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 18.11,
+    "body": {
+      "order_id": 4943,
+      "status": "confirmed",
+      "total_cents": 2299,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003943",
+      "served_at": "2026-06-08T10:05:43.003000+00:00"
+    },
+    "captured_at": 1780913143.0
+  },
+  {
+    "correlation_id": "sd-demo-003951",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 8.52,
+    "body": {
+      "order_id": 4951,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003951",
+      "served_at": "2026-06-08T10:05:51+00:00"
+    },
+    "captured_at": 1780913151.0
+  },
+  {
+    "correlation_id": "sd-demo-003951",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 10.7,
+    "body": {
+      "order_id": 4951,
+      "status": "confirmed",
+      "total_cents": 2099,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003951",
+      "served_at": "2026-06-08T10:05:51.003000+00:00"
+    },
+    "captured_at": 1780913151.0
+  },
+  {
+    "correlation_id": "sd-demo-003952",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 17.59,
+    "body": {
+      "order_id": 4952,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003952",
+      "served_at": "2026-06-08T10:05:52+00:00"
+    },
+    "captured_at": 1780913152.0
+  },
+  {
+    "correlation_id": "sd-demo-003952",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 22.27,
+    "body": {
+      "order_id": 4952,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003952",
+      "served_at": "2026-06-08T10:05:52.003000+00:00"
+    },
+    "captured_at": 1780913152.0
+  },
+  {
+    "correlation_id": "sd-demo-003957",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 12.26,
+    "body": {
+      "order_id": 4957,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003957",
+      "served_at": "2026-06-08T10:05:57+00:00"
+    },
+    "captured_at": 1780913157.0
+  },
+  {
+    "correlation_id": "sd-demo-003957",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 17.66,
+    "body": {
+      "order_id": 4957,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003957",
+      "served_at": "2026-06-08T10:05:57.003000+00:00"
+    },
+    "captured_at": 1780913157.0
+  },
+  {
+    "correlation_id": "sd-demo-003985",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 9.44,
+    "body": {
+      "order_id": 4985,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003985",
+      "served_at": "2026-06-08T10:06:25+00:00"
+    },
+    "captured_at": 1780913185.0
+  },
+  {
+    "correlation_id": "sd-demo-003985",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 12.7,
+    "body": {
+      "order_id": 4985,
+      "status": "confirmed",
+      "total_cents": 1999,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003985",
+      "served_at": "2026-06-08T10:06:25.003000+00:00"
+    },
+    "captured_at": 1780913185.0
+  },
+  {
+    "correlation_id": "sd-demo-003987",
+    "source": "prod",
+    "status_code": 200,
+    "latency_ms": 13.89,
+    "body": {
+      "order_id": 4987,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003987",
+      "served_at": "2026-06-08T10:06:27+00:00"
+    },
+    "captured_at": 1780913187.0
+  },
+  {
+    "correlation_id": "sd-demo-003987",
+    "source": "shadow",
+    "status_code": 200,
+    "latency_ms": 17.86,
+    "body": {
+      "order_id": 4987,
+      "status": "confirmed",
+      "total_cents": 2199,
+      "currency": "USD",
+      "customer": {
+        "email": "***MASKED***",
+        "tier": "standard"
+      },
+      "request_id": "req-003987",
+      "served_at": "2026-06-08T10:06:27.003000+00:00"
+    },
+    "captured_at": 1780913187.0
+  }
+]

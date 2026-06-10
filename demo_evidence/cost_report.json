@@ -1,0 +1,13 @@
+{
+  "sampled_requests": 6000,
+  "added_compute_cost": 0.0012,
+  "capture_storage_cost": 0.06,
+  "diff_scan_cost": 0.006,
+  "total_added_cost": 0.0672,
+  "within_budget": true,
+  "budget_alerts": [
+    10.0,
+    50.0,
+    100.0
+  ]
+}

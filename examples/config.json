@@ -1,0 +1,12 @@
+{
+  "service_type": "rest_api",
+  "prod_entry_point": "api-gateway-prod",
+  "shadow_target": "lambda-shadow-v2",
+  "region": "us-east-1",
+  "iac_tool": "terraform",
+  "sampling_rate": 0.05,
+  "log_retention_days": 7,
+  "shadow_enabled": true,
+  "pii_fields": ["email", "password", "ssn"],
+  "ignore_fields": ["request_id", "served_at"]
+}

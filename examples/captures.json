@@ -1,0 +1,4 @@
+[
+  {"correlation_id": "c1", "source": "prod", "status_code": 200, "latency_ms": 12.0, "body": {"v": 1, "served_at": "2026-06-08T09:00:00Z"}, "captured_at": 1000.0},
+  {"correlation_id": "c1", "source": "shadow", "status_code": 200, "latency_ms": 14.0, "body": {"v": 1, "served_at": "2026-06-08T09:00:01Z"}, "captured_at": 1000.0}
+]

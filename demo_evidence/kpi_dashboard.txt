@@ -1,0 +1,5 @@
+CloudWatch dashboard 'shadowdeploy-dev' (described — live screenshot taken after dev deploy):
+  - Shadow error rate: 0.0 (prod 0.0, delta 0.0)
+  - Divergence rate: 1.75% of sampled pairs
+  - Latency delta: 3.4613ms (shadow slower)
+  - Sampled volume: 171 requests/day at 5%

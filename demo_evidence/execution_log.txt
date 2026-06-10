@@ -1,0 +1,9 @@
+ShadowDeploy demo — bounded to API Gateway/Lambda REST, 5% sampling.
+Mirrored 171 of 4000 prod requests (5%).
+Captured 342 exchanges (prod + shadow), PII masked at capture.
+Wrote sample_dataset.json (note: shadow responses are DISCARDED in prod; stored here only for offline diffing).
+Compared 171 prod/shadow pairs.
+Verdict: REVIEW — 98.2456% match, latency delta 3.4613ms.
+Estimated added cost at 5% over 120000 monthly requests: $0.0672 (within $100 budget: True).
+Recorded human approval record (auto_promoted=false).
+Wrote KPI dashboard description.
