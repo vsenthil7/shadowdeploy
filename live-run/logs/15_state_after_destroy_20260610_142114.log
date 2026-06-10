@@ -1,0 +1,17 @@
+﻿================================================================
+ShadowDeploy live-run command log
+Step        : 15_state_after_destroy
+Note        : Should be empty (or only the caller_identity data source) after destroy
+Command     : "C:\Users\v_sen\AppData\Local\terraform\terraform.exe" state list
+Working dir : C:\Users\v_sen\Documents\Projects\0013_AT_Hack0024_AWS-PromptThePlanet\08-ShadowDeploy\shadowdeploy\live-run
+Host        : 
+User        : v_sen
+Start       : 2026-06-10 14:21:14
+================================================================
+
+
+================================================================
+End         : 2026-06-10 14:21:15
+Duration    : 1s
+Exit code   : 0
+================================================================
